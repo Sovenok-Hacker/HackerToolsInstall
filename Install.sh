@@ -5,22 +5,8 @@ pkg update -y
 pkg upgrade -y
 clear
 echo "Пакеты Termux обновлены, идёт установка пакета!"
-pkg install fakeroot -y
-pkg install python -y
-pkg install python3 -y
-pkg install openssh -y
-pkg install openssl -y
-pkg install ruby -y
-pkg install termux-tools -y
-pkg install vim nano wget curl -y
-pip install pyTelegramBotAPI
-pip install fuzzywuzzy
-pip install aiogram
-pip install Pillow
-pip install requests
-pip install discord.py
-pip install rich
-pip install pysyscom
+pkg install vim nano wget curl micro termux-tools ruby openssl openssh python fakeroot -y
+pip install pyTelegramBotAPI fuzzywuzzy aiogram Pillow requests discord.py rich owlshell beautifulsoup4 lxml
 clear
 echo "Установлено успешно!"
 
